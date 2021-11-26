@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc29015ebff40154b862d0a28bd8ec6b, type: 3}
+  m_Name: Citizen
+  m_EditorClassIdentifier: 
+  dialogType: Citizen
+  characterPortrait: {fileID: 21300000, guid: fa2c23a250e724c40ac026b1846dc986, type: 3}
+  dialog:
+  - Io|Hello.
+  - Citizen|Hello, how are you?
+  - Io|I am fine.

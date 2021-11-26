@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="DialogContainer" style="flex-direction: column; align-items: flex-start; flex-grow: 1; justify-content: flex-end; display: flex; visibility: hidden;">
+        <ui:VisualElement name="CharacterPortrait" style="flex-shrink: 0; background-color: rgb(124, 221, 125); width: 128px; height: 128px; left: auto; right: auto;" />
+        <ui:VisualElement name="DialogDiv" style="flex-direction: column; flex-grow: 0; left: auto; bottom: auto; height: 35%; width: 100%; background-color: rgb(215, 215, 238);">
+            <ui:VisualElement name="CharacterNameDiv" style="flex-shrink: 0; align-items: flex-start; width: 200px; height: 32px; background-color: rgb(226, 225, 144);">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="Name" style="-unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); -unity-font: resource(&apos;Fonts &amp; Materials/Lora-Italic-VariableFont_wght&apos;); font-size: 16px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CharacterDialogDiv" text="CharacterName" style="-unity-background-image-tint-color: rgba(0, 0, 0, 0); flex-grow: 1; flex-direction: row; align-items: flex-start; height: 100%; background-color: rgba(255, 255, 255, 0); justify-content: flex-start; -unity-font: resource(&apos;Fonts &amp; Materials/Lora-Italic-VariableFont_wght&apos;); font-size: 16px;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="Dialog" style="background-color: rgba(0, 0, 0, 0); flex-grow: 1; flex-wrap: nowrap; -unity-font: resource(&apos;Fonts &amp; Materials/Lora-VariableFont_wght&apos;); font-size: 16px; -unity-text-align: upper-left; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
