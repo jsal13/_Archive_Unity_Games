@@ -1,0 +1,28 @@
+﻿title: Merchant
+tags:
+---
+
+Merchant: Hey, you want to upgrade anything?
+-> Upgrade Attack to Power {$attackPower + 1} (Costs {($attackPower + 1) * 10} Gold)
+    <<if $gold < (($attackPower + 1) * 10)>>
+        Merchant: You don't have enough gold!
+    <<stop>>
+    <<else>>
+        Merchant: Great, here you are.
+        Your attack power went up to {$attackPower + 1}!
+        <<set $attackPower = $attackPower + 1>>
+        <<set $gold = $gold - (($attackPower + 1) * 10) >>
+    <<endif>>
+    
+-> Upgrade Magic to Power {$magicPower + 1} (Costs {($magicPower + 1) * 10} Gold)
+    <<if $gold < (($magicPower + 1) * 10)>>
+        Merchant: You don't have enough gold!
+    <<stop>>
+    <<else>>
+        Merchant: Great, here you are.
+        Your attack power went up to {$magicPower + 1}!
+        <<set $magicPower = $magicPower + 1>>
+        <<set $gold = $gold - (($magicPower + 1) * 10) >>
+    <<endif>>
+
+===

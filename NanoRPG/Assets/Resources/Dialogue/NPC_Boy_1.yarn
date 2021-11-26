@@ -1,0 +1,35 @@
+﻿title: NPC_Boy_1
+tags:
+---
+
+<<if random() < 0.33>>
+Io: Hello, how are you?
+Boy: I'm well, thank you.
+
+<<elseif random() < 0.66 >>
+Boy: Be careful out there!
+
+<<else>>
+Boy: Do you like me?
+-> Yes.
+    Boy: Thank you!
+    Io: No problem.
+-> No.
+    Boy:Well, I never!
+<<endif>>
+
+===
+
+title: NPC_Boy_1.Beat_Boss_1
+tags:
+---
+
+<<if random() < 0.5>>
+Io: I beat that one boss.
+Boy: Must be nice.
+
+<<else>>
+Boy: Nice job beating that boss!
+<<endif>>
+
+===

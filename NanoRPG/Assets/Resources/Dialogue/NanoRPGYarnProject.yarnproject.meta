@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: 6e73c032ddedbb74f851d4fb00d0505d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: dbc0a886fba4728438c3b9e7572001a8, type: 3}
+  - {fileID: 6391573757903218779, guid: 02763ba06c82eb048bb9b656839b6822, type: 3}
+  - {fileID: 6391573757903218779, guid: 187dff4f0325dcd44b085bf00e563e21, type: 3}
+  - {fileID: 6391573757903218779, guid: fd1a96f0ed12fdb4396a0ca4bf0b5104, type: 3}
+  compileError: 
+  serializedDeclarations:
+  - name: $attackPower
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Merchant.yarn, node Merchant, line 2
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 187dff4f0325dcd44b085bf00e563e21, type: 3}
+  - name: $gold
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Merchant.yarn, node Merchant, line 3
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 187dff4f0325dcd44b085bf00e563e21, type: 3}
+  - name: $magicPower
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Merchant.yarn, node Merchant, line 12
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 187dff4f0325dcd44b085bf00e563e21, type: 3}
+  defaultLanguage: en-US
+  languagesToSourceAssets: []
+  useAddressableAssets: 0

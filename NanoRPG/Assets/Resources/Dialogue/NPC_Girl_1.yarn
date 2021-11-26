@@ -1,0 +1,27 @@
+title: NPC_Girl_1
+tags:
+---
+
+<<if random() < 0.33>>
+Girl: Lots of skeletons in the field next to us. Whew.
+
+<<elseif random() < 0.66>>
+Girl: I don't love skeletons. Not even the one in me.
+
+<<else>>
+Girl: Io, did you see a skeleton yet?
+-> Yeah.
+    Girl: Wow, and you weren't scared?  You're so brave!
+    <<jump NPC_Girl_1_Spooked>>
+-> No, not yet. 
+    <<jump NPC_Girl_1_Spooked>>
+<<endif>>
+
+===
+
+title: NPC_Girl_1_Spooked
+tags:
+---
+
+Girl: Honestly?  I am easly spooked.
+===

@@ -1,0 +1,10 @@
+﻿title: Start
+tags:
+---
+
+<<if $gold > 3>>
+Greg: Wow, you're rich.  You have { $gold }.
+<<else>>
+Greg: Wow, you're poor.  You have { $gold }.
+<<endif>>
+===

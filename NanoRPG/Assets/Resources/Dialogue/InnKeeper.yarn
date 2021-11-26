@@ -1,0 +1,16 @@
+﻿title: InnKeeper
+tags:
+---
+
+Inn Keeper: Wanna stay the night and heal up?
+-> Sure.  (Cost 10 Gold)
+    <<if $gold >= 10>>
+        <<set $gold = $gold - 10>>
+        <<sleep Player>>
+    <<else>>
+        Inn Keeper: You don't have enough gold!
+        <<stop>>
+    <<endif>>
+-> Nah, I'm good.
+
+===

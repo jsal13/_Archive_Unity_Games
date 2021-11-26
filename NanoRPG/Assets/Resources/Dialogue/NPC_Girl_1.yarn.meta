@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 02763ba06c82eb048bb9b656839b6822
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  LastImportHadImplicitStringIDs: 0
+  LastImportHadAnyStrings: 0
+  isSuccessfullyParsed: 0
+  parseErrorMessage: 'Error on line 26 at position 1:
+
+    missing ''==='' at ''<EOF>''
+
+    Debug:
+    Offending symbol type: EOF
+
+    
+
+
+
+    Tokens:
+
+    1:0 ID "title"
+
+    1:5
+    HEADER_DELIMITER ": "
+
+    1:7 REST_OF_LINE "NPC_Girl_1"
+
+    2:0 HEADER_NEWLINE
+    "
+
+    "
+
+    2:0 ID "tags"
+
+    2:4 HEADER_DELIMITER ":"
+
+    3:0 HEADER_NEWLINE
+    "
+
+    "
+
+    3:0 ''---'' "---"
+
+    5:0 TEXT "G"
+
+    5:1 TEXT "irl: Lots of
+    skeletons in the field next to us. Whew."
+
+    8:0 TEXT_NEWLINE "
+
+    
+
+    
+
+    "
+
+    8:0
+    TEXT "G"
+
+    8:1 TEXT "irl: I don''t love skeletons. Not even the one in me."
+
+    17:0
+    TEXT_NEWLINE "
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    "
+
+    17:0
+    TEXT "G"
+
+    17:1 TEXT "irl: Io, did you see a skeleton yet?"
+
+    21:16 TEXT_NEWLINE
+    "        "
+
+    21:16 INDENT "                "
+
+    21:16 TEXT "Y"
+
+    21:17
+    TEXT "eah.</line>"
+
+    22:20 TEXT_NEWLINE "  "
+
+    22:20 INDENT "                   
+    "
+
+    22:20 TEXT "<"
+
+    22:21 TEXT "line speaker="NPC">"
+
+    23:16 TEXT_NEWLINE
+    "  "
+
+    22:16 DEDENT " "
+
+    23:16 TEXT "S"
+
+    23:17 TEXT "pooky, right?"
+
+    24:16
+    TEXT_NEWLINE "  "
+
+    24:16 TEXT "<"
+
+    24:17 TEXT "/line>"
+
+    25:16 TEXT_NEWLINE
+    "  "
+
+    25:16 TEXT "<"
+
+    25:17 TEXT "/dialog>"
+
+    26:0 TEXT_NEWLINE "
+
+    "
+
+    25:0
+    DEDENT "
+
+    "
+
+    26:0 EOF "<EOF>"'
