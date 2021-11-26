@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6901ef8085449479232cb61c362482, type: 3}
+  m_Name: Diamond
+  m_EditorClassIdentifier: 
+  name: Diamond
+  sprite: {fileID: 21300000, guid: 981cfaafc2541ee488b1b8293b588f92, type: 3}
+  reactivePotions:
+  - {fileID: 11400000, guid: 3d8c27876df17ee449941e0d90ed29b9, type: 2}
+  - {fileID: 11400000, guid: cbf038d98e5e97640969d12317aa4c8c, type: 2}
+  - {fileID: 11400000, guid: c0afa1ffe4c579b459921f9bb6e0272a, type: 2}
