@@ -1,0 +1,36 @@
+title: Village_3_Citizen_Yellow
+tags:
+---
+
+Citizen Yellow: We've lost every scout we sent to Neso.  We've got no one left to send.  Please, do you have any Food?
+
+===
+
+title: Village_3_Citizen_Pink_Loom
+tags:
+---
+
+Citizen Pink: I work this loom.  If you have wool and gold, I can make you something nice.
+
+-> Jump Boots (Cost -- 10 Coin, 4 Wool)
+    <<if $Coin >= 10 and $Wool >= 4>>
+        <<set $Coin = $Coin - 10>>
+        <<set $Wool = $Wool - 4>>
+        <<add_to_player_inventory JumpBoots>>
+    <<else>>
+        Citizen Pink: I'm sorry, but if you don't have the coin and wool...
+        <<stop>>
+    <<endif>>
+
+-> Other things maybe.
+
+
+===
+
+title: Village_3_Merchant_Green
+tags:
+---
+
+Merchant Green: I may leave this village soon if our Food supply runs any lower --- ah, sorry, here are my goods.
+
+===

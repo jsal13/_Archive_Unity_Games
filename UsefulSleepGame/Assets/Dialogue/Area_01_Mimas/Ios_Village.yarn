@@ -1,0 +1,37 @@
+title: Ios_Village_Citizen_Yellow
+tags:
+---
+
+Citizen Yellow: Io, please get us Seeds from the Village past the River to the East.  We're depending on you.
+
+===
+
+title: Ios_Village_Citizen_Green
+tags:
+---
+
+
+<<if random() < 0.45>>
+Citizen Green: It's gotten a lot colder lately.  Don't you think so?
+<<elseif random() < 0.45>>
+Citizen Green: I'm hungry.
+<<elseif random() < 0.45>>
+Citizen Green: I've never been to the village to the East.  It's too cold for me to go into the river.
+<<elseif random() < 0.45>>
+Citizen Green: We're running low on food.  If we don't get seeds to plant...
+<<elseif random() < 0.45>>
+Citizen Green: The wind feels sharp today.
+<<else>> 
+Citizen Green: It's darker than I remember it being.
+<<endif>>
+
+
+===
+
+title: Ios_Village_Merchant_Green
+tags:
+---
+
+Merchant Green: Io, if you need to buy anything or sell anything, please let me know.
+
+===

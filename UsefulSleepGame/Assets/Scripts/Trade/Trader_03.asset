@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cdb2429544b6548a6f387153d4f68c, type: 3}
+  m_Name: Trader_03
+  m_EditorClassIdentifier: 
+  inventory:
+  - sprite: {fileID: 21300000, guid: c1862d1371c773941848cccdd14182b9, type: 3}
+    itemName: Wood
+    buy: 3
+    sell: 1
+  - sprite: {fileID: 21300000, guid: ee51ce2eda4f0cc4ab741b049a9e5a61, type: 3}
+    itemName: Stone
+    buy: 2
+    sell: 1
+  - sprite: {fileID: 21300000, guid: 2c77167a336b6644691b0cd0124532c7, type: 3}
+    itemName: Wool
+    buy: 14
+    sell: 7

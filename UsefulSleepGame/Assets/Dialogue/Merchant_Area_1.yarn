@@ -1,0 +1,28 @@
+﻿title: Merchant_Yellow
+tags:
+---
+
+Merchant Yellow: Hello.  We've got some fine things here...
+===
+
+title: Merchant_Green
+tags:
+---
+
+<<if random() < 0.5>>
+Merchant Green: If you'd like to trade...
+<<else>> 
+Merchant Green: Have anything to trade?
+<<endif>>
+===
+
+title: Merchant_Pink
+tags:
+---
+
+<<if random() < 0.5>>
+Merchant Pink: If you'd like to buy...
+<<else>> 
+Merchant Pink: Looking for anything to buy...?
+<<endif>>
+===

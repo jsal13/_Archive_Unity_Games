@@ -1,0 +1,41 @@
+﻿title: Village_2_Citizen_Yellow
+tags:
+---
+
+Citizen Yellow: I am sorry.  We have no Seeds.
+Citizen Yellow: We have sent a member of our village to the Southern Village but have not heard back yet...
+Citizen Yellow: We hope that they will have seeds for us.  Perhaps they will have Seeds for you too.
+
+===
+
+title: Village_2_Citizen_Green
+tags:
+---
+
+
+<<if random() < 0.45>>
+Citizen Green: You're from the Western Village?
+<<elseif random() < 0.45>>
+Citizen Green: Is the Western Village running low on food?
+<<elseif random() < 0.45>>
+Citizen Green: The river is freezing, but if you know how to make bonfires it isn't so bad...
+<<elseif random() < 0.45>>
+Citizen Green: I hope it gets warmer soon.
+<<elseif random() < 0.45>>
+Citizen Green: It feels like it is staying darker longer...
+<<elseif random() < 0.45>>
+Citizen Green: I heard there is a Loom in the Southern Village where you can make items from wool...
+<<else>> 
+Citizen Green: The elder here in the Yellow robes would know where to find Seeds...
+<<endif>>
+
+
+===
+
+title: Village_2_Merchant_Green
+tags:
+---
+
+Merchant Green: I do not have any seeds.  Perhaps the town to the South will, it is warmer there...
+
+===

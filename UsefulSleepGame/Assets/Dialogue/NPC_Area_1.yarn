@@ -1,0 +1,36 @@
+﻿title: Citizen_Yellow
+tags:
+---
+
+Citizen Yellow: Hello, Io.
+-> Hello.
+    Citizen Yellow: I'm glad you're hanging out.
+-> How are you?
+    Citizen Yellow: I'm good, I hope you are too.
+===
+
+title: Citizen_Green
+tags:
+---
+
+<<if random() < 0.5>>
+Citizen Green: It's gotten a lot colder lately.  Don't you think so?
+<<elseif random() < 0.5>>
+Citizen Green: I'm a little hungry.
+<<else>> 
+Citizen Green: It's darker than I remember it being.
+<<endif>>
+===
+
+title: Citizen_Pink
+tags:
+---
+
+<<if random() < 0.5>>
+Citizen Pink: I'm hungry, but so is everyone else.
+<<elseif random() < 0.5>>
+Citizen Pink: I don't like to complain.
+<<else>> 
+Citizen Pink: I feel a little under the weather.
+<<endif>>
+===

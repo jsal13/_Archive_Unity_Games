@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bonfire_Wood_Override
+  m_Controller: {fileID: 9100000, guid: 61ef8db913cfd1f4fb3fc97cb9f97703, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3951f5dfe1ccc8f4cb32dbbe1d2cf8b9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a902f917c5b291f4e98d1b44352437d0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d56cbc92089aeac4da6021697a3ab5d2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 89bf10dfa9a1de24f9a4ad380b3e0b00, type: 2}
