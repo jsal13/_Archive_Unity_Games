@@ -1,0 +1,76 @@
+{
+    "ios_villager": [
+        [
+            "Citizen|Io, please find us seeds to plant here.",
+            "Io|I'll try."
+        ],
+        [
+            "Citizen|I hear that there are seeds to the east...",
+            "Io|I'll look."
+        ],
+        [
+            "Io|How are you feeling?",
+            "Citizen|Hungry.",
+            "Io|I should find seeds for us..."
+        ]
+    ],
+    "mimas_trader_01": [
+        [
+            "Trader|Hello, hope you are well.",
+            "Io|Thank you."
+        ],
+        [
+            "Trader|Hello."
+        ],
+        [
+            "Trader|Would you like to buy anything?"
+        ],
+        [
+            "Trader|Hey."
+        ]
+    ],
+    "mimas_citizen_01": [
+        [
+            "Citizen|It's awfully cold.",
+            "Io|Yes."
+        ],
+        [
+            "Citizen|There is a loom to the east.  I loved using it when I could visit there."
+        ],
+        [
+            "Citizen|No rain, but no sun either."
+        ],
+        [
+            "Citizen|Hello."
+        ]
+    ],
+    "mimas_citizen_02": [
+        [
+            "Citizen|It's going to be a cold day.",
+            "Io|Maybe."
+        ],
+        [
+            "Citizen|Hey."
+        ],
+        [
+            "Citizen|How are you?"
+        ],
+        [
+            "Citizen|I wonder what's to the far east?"
+        ]
+    ],
+    "mimas_citizen_loom": [
+        [
+            "Loom Citizen|I love using this loom to make nice things.",
+            "Io|I wish I had nice things."
+        ]
+    ],
+    "loom": [
+        [
+            "Io|It's a loom.  Maybe we can make something?"
+        ],
+        [
+            "Io|A loom, eh?  Let's see what we can do."
+        ]
+    ]
+}
