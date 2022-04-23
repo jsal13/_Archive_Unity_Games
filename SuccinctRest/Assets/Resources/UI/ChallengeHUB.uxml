@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/style.uss?fileID=7433441132597879392&amp;guid=8c34b6739d48d0a49b86a34cbf979a9f&amp;type=3#style" />
+    <ui:VisualElement name="Container">
+        <ui:VisualElement name="ContainerLeft" class="container-left" style="flex-direction: row;">
+            <ui:Label text="Three Blues in a row, yeah baybees it&apos;s gonna be cool and fun." display-tooltip-when-elided="true" name="Challenge" class="challenge-text" style="max-width: none; align-items: center; justify-content: center; white-space: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

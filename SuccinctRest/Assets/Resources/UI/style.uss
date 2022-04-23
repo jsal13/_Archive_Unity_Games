@@ -1,0 +1,14 @@
+.challenge-text {
+    font-size: 24px;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/FiraMono-Medium.ttf?fileID=12800000&guid=183004e7ad67d21458244c31ee25810f&type=3#FiraMono-Medium');
+    -unity-font-definition: none;
+    max-width: 100px;
+}
+
+.container-left {
+    max-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+.hud-container {
+    background-color: rgb(180, 180, 188);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(41, 41, 41);
+    border-right-color: rgb(41, 41, 41);
+    border-top-color: rgb(41, 41, 41);
+    border-bottom-color: rgb(41, 41, 41);
+}
+
+.stat-text {
+    font-size: 16px;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/FiraMono-Bold.ttf?fileID=12800000&guid=337dfd882331f57478e0090d299e8cfd&type=3#FiraMono-Bold');
+    -unity-text-align: middle-left;
+    -unity-font-style: normal;
+}
+
+.bio-text {
+    font-size: 20px;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/FiraMono-Bold.ttf?fileID=12800000&guid=337dfd882331f57478e0090d299e8cfd&type=3#FiraMono-Bold');
+}
+
+.date-text {
+    font-size: 20px;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/FiraMono-Medium.ttf?fileID=12800000&guid=cb517249287f82347822f909cf5368e6&type=3#FiraMono-Medium');
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.town-text {
+    font-size: 28px;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/FiraMono-Bold.ttf?fileID=12800000&guid=337dfd882331f57478e0090d299e8cfd&type=3#FiraMono-Bold');
+}
+
+.map-node {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.map-node-cannot-visit {
+    background-color: rgba(226, 212, 212, 255);
+}
+
+.map-node-can-visit {
+    background-color: rgb(143, 231, 134);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.map-container {
+    border-left-color: rgb(24, 22, 22);
+    border-right-color: rgb(24, 22, 22);
+    border-top-color: rgb(24, 22, 22);
+    border-bottom-color: rgb(24, 22, 22);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(34, 33, 33, 0.28);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+}

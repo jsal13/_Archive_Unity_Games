@@ -1,0 +1,23 @@
+title: Study_Swordsmanship
+tags:
+---
+
+You decide to study Swordsmanship...
+<<end_turn_action>>
+===
+
+title: Study_Locksmithing
+tags:
+---
+
+You decide to study Locksmithing...
+<<end_turn_action>>
+===
+
+title: Study_Divination
+tags:
+---
+
+You decide to study Divination...
+<<end_turn_action>>
+===

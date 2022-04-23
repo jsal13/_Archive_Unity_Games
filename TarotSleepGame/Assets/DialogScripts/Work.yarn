@@ -1,0 +1,23 @@
+﻿title: Work_Night_Guard
+tags:
+---
+
+You decide to work as a Night Guard...
+<<end_turn_action>>
+===
+
+title: Work_Locksmith
+tags:
+---
+
+You decide to work as a Locksmith...
+<<end_turn_action>>
+===
+
+title: Work_Tarot_Reader
+tags:
+---
+
+You decide to work as a Tarot Reader...
+<<end_turn_action>>
+===
