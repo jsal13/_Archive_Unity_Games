@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/GUI/styles.uss?fileID=7433441132597879392&amp;guid=de2f4c5c4c7385f45ba1480cab3c3c18&amp;type=3#styles" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: flex-start; justify-content: center; align-self: flex-start;">
+        <ui:VisualElement name="PlayerContainer" class="container">
+            <ui:VisualElement name="HealthContainer" class="container" style="flex-direction: row; align-items: center;">
+                <ui:VisualElement name="Icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:Label tabindex="-1" text="Health" display-tooltip-when-elided="true" name="Label" class="stat-text" />
+                <ui:Label tabindex="-1" text="000" display-tooltip-when-elided="true" name="Value" class="stat-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="FoodContainer" class="container" style="flex-direction: row; align-self: center; align-items: center;">
+                <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/Icon_Food.png?fileID=21300000&amp;guid=80f62e6cdbd7fad4799dd3472748ca3f&amp;type=3#Icon_Food&apos;); -unity-background-scale-mode: scale-to-fit; width: 32px; height: 32px;" />
+                <ui:Label tabindex="-1" text="Food" display-tooltip-when-elided="true" name="Label" class="stat-text" />
+                <ui:Label tabindex="-1" text="000" display-tooltip-when-elided="true" name="Value" class="stat-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="WaterContainer" class="container" style="flex-direction: row; align-self: center; align-items: center;">
+                <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/Icon_Water.png?fileID=21300000&amp;guid=7e79b783c39ea774fa9f5b7cd20247e4&amp;type=3#Icon_Water&apos;); -unity-background-scale-mode: scale-to-fit; width: 32px; height: 32px;" />
+                <ui:Label tabindex="-1" text="Water" display-tooltip-when-elided="true" name="Label" class="stat-text" />
+                <ui:Label tabindex="-1" text="000" display-tooltip-when-elided="true" name="Value" class="stat-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SaltContainer" class="container" style="flex-direction: row; align-self: center; align-items: center;">
+                <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/Icon_Salt.png?fileID=21300000&amp;guid=9a4a7685057f95b4b822b0c4b6800d2a&amp;type=3#Icon_Salt&apos;); -unity-background-scale-mode: scale-to-fit; width: 32px; height: 32px;" />
+                <ui:Label tabindex="-1" text="Salt" display-tooltip-when-elided="true" name="Label" class="stat-text" />
+                <ui:Label tabindex="-1" text="000" display-tooltip-when-elided="true" name="Value" class="stat-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="WoodContainer" class="container" style="flex-direction: row; align-self: center; align-items: center;">
+                <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/Icon_Wood.png?fileID=21300000&amp;guid=085a08f10cecfd84eb9e820765961b16&amp;type=3#Icon_Wood&apos;); -unity-background-scale-mode: scale-to-fit; width: 32px; height: 32px;" />
+                <ui:Label tabindex="-1" text="Wood" display-tooltip-when-elided="true" name="Label" class="stat-text" />
+                <ui:Label tabindex="-1" text="000" display-tooltip-when-elided="true" name="Value" class="stat-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
